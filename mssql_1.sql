@@ -1,3 +1,10 @@
+--************************************************
+--            MICROSOFT SQL TUTORIAL
+--************************************************
+-- Source: 
+-- YouTube Videos:https://www.youtube.com/@AlexTheAnalyst
+
+
 --************* CREATE TABLE ************
 
 --TABLE 1--
@@ -20,7 +27,7 @@ JobTitle varchar(50),
 Salary int)
 
 --To see the rows we can simply right click on the table name: "Select Top 1000 Rows"
---However, we do not have ant values on our tables. We can insert some values.
+--However, we do not have any values now. So, we need to insert some values.
 
 --**************** INSERT INTO ... VALUES **************
 
@@ -69,7 +76,7 @@ FROM EmployeeDemographics --Male and Female
 SELECT COUNT(LastName)
 FROM EmployeeDemographics --9 records
 
---In this query there is no column name. We can name it using "AS"
+--In this query, there is no column name. We can name it using "AS"
 
 SELECT COUNT(LastName) AS LastNameCount
 FROM EmployeeDemographics
